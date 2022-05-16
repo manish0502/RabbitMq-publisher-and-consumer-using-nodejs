@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "This is rabbitmq tutorials",
+  "main": "publisher.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume":"node consumer.js"
+  },
+  "keywords": [
+    "rabitmq",
+    "amqp",
+    "nodejs"
+  ],
+  "author": "Manish kumar giri",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.9.0"
+  }
+}
